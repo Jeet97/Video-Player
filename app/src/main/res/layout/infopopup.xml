@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#99000000"
+    android:id = "@+id/viewgrp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Details"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="File Name"
+            android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/filename"
+                android:textColor="@android:color/white"
+                android:maxLines="2"
+                android:ellipsize="end"
+                tools:text="Beat Pe Booty.mp4"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Location"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:maxLines="2"
+                android:layout_weight="1"
+                android:id = "@+id/location"
+                android:ellipsize="end"
+                android:textColor="@android:color/white"
+                tools:text="/storage/emulated/0/Videos/Bollywood"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:padding="5dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Size"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/size"
+                android:textColor="@android:color/white"
+                tools:text="45MB"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Format"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/format"
+                android:textColor="@android:color/white"
+                tools:text="MPEG-4"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Last Modified"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/date"
+                android:textColor="@android:color/white"
+                tools:text="14/9/2016"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Resolution"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/resolution"
+                android:textColor="@android:color/white"
+                tools:text="1080X1920"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Length"
+                android:layout_column="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/length"
+                android:textColor="@android:color/white"
+                tools:text="02:35"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
